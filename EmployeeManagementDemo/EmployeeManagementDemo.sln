@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Api", "EmployeeManagement.Api\EmployeeManagement.Api.csproj", "{642B0BE1-90E1-4250-8846-581177F8F19C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagementLibrary", "DiveManagementLibrary\EmployeeManagementLibrary.csproj", "{F5694742-594D-4AFF-B7A1-9D6D7DC60526}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagementLibrary", "EmployeeManagementLibrary\EmployeeManagementLibrary.csproj", "{F5694742-594D-4AFF-B7A1-9D6D7DC60526}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
