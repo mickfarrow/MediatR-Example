@@ -1,22 +1,15 @@
-# DiveLogger-WebApiCore
-# Hello
+# EmployeeManagement.Api
 
-https://www.youtube.com/watch?v=f0lMGPB10bM
+A demo project using MediatR v 12.1.1
 
-https://learn.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/design-develop-containerized-apps/build-aspnet-core-applications-linux-containers-aks-kubernetes
+[MediatR GitHUb](https://github.com/jbogard/MediatR)
 
-docker image build --force-rm -t  divelog.core.webapi:dev .
+[Deploy an Api with Docker](https://www.youtube.com/watch?v=f0lMGPB10bM)
 
-docker run -d -p 3280:80 --name DiveLog.Core.WebApi divelog.core.webapi:dev
+[Deploy app with Kubernetes](https://learn.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/design-develop-containerized-apps/build-aspnet-core-applications-linux-containers-aks-kubernetes)
 
-docker run -d -p 32443:443 --name DiveLog.Core.WebApi.Ssl divelog.core.webapi:dev
+docker image build --force-rm -t employeemanagement.api:dev .
 
-{
-  "username": "mick.farrow@visualdev.net",
-  "password": "UaB53*jm*4J7o0*z"
-}
-"id": 1,
-  "firstName": "Mick",
-  "lastName": "Farrow",
-  "username": "mick.farrow@visualdev.net",
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Ik1pY2sgRmFycm93IiwiZW1haWwiOiJtaWNrLmZhcnJvd0B2aXN1YWxkZXYubmV0IiwiRXhwaXJ5IjoiMDgvMTQvMjAyMyAyMTo1MDo1NSIsIm5iZiI6MTY5MTk2MzQ1NSwiZXhwIjoxNjkyMDQ5ODU1LCJpYXQiOjE2OTE5NjM0NTV9.hIIyQMS8fEY7YPU8sgVeBdglG2JKrif64Zsen9Tz3ug"
+docker run -d -p 3280:80 --name employeemanagement employeemanagement.api:dev
+
+[Configuring Database](https://dev.azure.com/mickfarrow/My%20Space/_wiki/wikis/My-Space.wiki/15/Docker-and-Containers?anchor=dive-journal-sql-database)
