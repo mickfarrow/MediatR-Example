@@ -1,9 +1,6 @@
 ﻿using EmployeeManagementLibrary.Queries;
-using EmployeeManagement.Api.Models;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using EmployeeManagementLibrary.Models;
 
 namespace EmployeeManagement.Api.Controllers
 {

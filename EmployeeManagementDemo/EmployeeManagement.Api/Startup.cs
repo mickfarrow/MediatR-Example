@@ -1,8 +1,6 @@
-﻿using EmployeeManagementLibrary.Data;
+﻿using EmployeeManagement.Api.Helpers;
+using EmployeeManagementLibrary.Data;
 using EmployeeManagementLibrary.Queries;
-using EmployeeManagement.Api.Helpers;
-using EmployeeManagement.Api.Services;
-using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -11,8 +9,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
-using System.Net.NetworkInformation;
-using System.Reflection;
 using System.Text;
 
 namespace EmployeeManagement.Api
@@ -88,8 +84,6 @@ namespace EmployeeManagement.Api
             });
 
             // configure DI for application services
-            services.AddScoped<IUserService, UserService>();
-            services.AddScoped<IDivesService, DivesService>();
 
             //MediatR
             services.AddScoped<IDataAccess, DataAccess>();
